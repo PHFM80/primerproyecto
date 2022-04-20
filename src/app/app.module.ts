@@ -10,6 +10,8 @@ import { NavbarComponent } from './components/navbar/navbar.component';
 import { LogoComponent } from './components/navbar/logo/logo.component';
 import { MenuComponent } from './components/navbar/menu/menu.component';
 import { LoginComponent } from './components/navbar/login/login.component';
+import { IngresoComponent } from './components/navbar/login/ingreso/ingreso.component';
+import { RegistroComponent } from './components/navbar/login/registro/registro.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +23,9 @@ import { LoginComponent } from './components/navbar/login/login.component';
     NavbarComponent,
     LogoComponent,
     MenuComponent,
-    LoginComponent
+    LoginComponent,
+    IngresoComponent,
+    RegistroComponent
   ],
   imports: [
     BrowserModule
