@@ -18,6 +18,8 @@ import { EstudiosComponent } from './components/body/estudios/estudios.component
 import { SecundariaComponent } from './components/body/Estudios/secundaria/secundaria.component';
 import { IacComponent } from './components/body/Estudios/iac/iac.component';
 import { OtroscursosComponent } from './components/body/Estudios/otroscursos/otroscursos.component';
+import { ArgProgramaComponent } from './components/body/estudios/arg-programa/arg-programa.component';
+import { ArgYoProgramoComponent } from './components/body/estudios/arg-yo-programo/arg-yo-programo.component';
 
 @NgModule({
   declarations: [
@@ -37,7 +39,9 @@ import { OtroscursosComponent } from './components/body/Estudios/otroscursos/otr
     EstudiosComponent,
     SecundariaComponent,
     IacComponent,
-    OtroscursosComponent
+    OtroscursosComponent,
+    ArgProgramaComponent,
+    ArgYoProgramoComponent
   ],
   imports: [
     BrowserModule
