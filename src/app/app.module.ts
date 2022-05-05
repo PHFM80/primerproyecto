@@ -20,6 +20,11 @@ import { IacComponent } from './components/body/Estudios/iac/iac.component';
 import { OtroscursosComponent } from './components/body/Estudios/otroscursos/otroscursos.component';
 import { ArgProgramaComponent } from './components/body/estudios/arg-programa/arg-programa.component';
 import { ArgYoProgramoComponent } from './components/body/estudios/arg-yo-programo/arg-yo-programo.component';
+import { AptitudesComponent } from './components/body/aptitudes/aptitudes.component';
+import { ApreciacionesComponent } from './components/body/apreciaciones/apreciaciones.component';
+import { InteresesComponent } from './components/body/intereses/intereses.component';
+import { Iac2Component } from './components/body/estudios/iac2/iac2.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 @NgModule({
   declarations: [
@@ -41,7 +46,12 @@ import { ArgYoProgramoComponent } from './components/body/estudios/arg-yo-progra
     IacComponent,
     OtroscursosComponent,
     ArgProgramaComponent,
-    ArgYoProgramoComponent
+    ArgYoProgramoComponent,
+    AptitudesComponent,
+    ApreciacionesComponent,
+    InteresesComponent,
+    Iac2Component,
+    FooterComponent
   ],
   imports: [
     BrowserModule
