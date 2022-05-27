@@ -3,9 +3,9 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './components/header/header.component';
-import { DatospersonalesComponent } from './components/datospersonales/datospersonales.component';
-import { FotopabloComponent } from './components/fotopablo/fotopablo.component';
-import { FotoportadaComponent } from './components/fotoportada/fotoportada.component';
+import { DatospersonalesComponent } from './components/header/datospersonales/datospersonales.component';
+import { FotopabloComponent } from './components/header/fotopablo/fotopablo.component';
+import { FotoportadaComponent } from './components/header/fotoportada/fotoportada.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { LogoComponent } from './components/navbar/logo/logo.component';
 import { MenuComponent } from './components/navbar/menu/menu.component';
@@ -25,6 +25,7 @@ import { ApreciacionesComponent } from './components/body/apreciaciones/apreciac
 import { InteresesComponent } from './components/body/intereses/intereses.component';
 import { Iac2Component } from './components/body/estudios/iac2/iac2.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { NgCircleProgressModule } from 'ng-circle-progress';
 
 @NgModule({
   declarations: [
@@ -54,7 +55,8 @@ import { FooterComponent } from './components/footer/footer.component';
     FooterComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    NgCircleProgressModule.forRoot({})
   ],
   providers: [],
   bootstrap: [AppComponent]
