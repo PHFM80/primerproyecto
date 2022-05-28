@@ -26,6 +26,8 @@ import { InteresesComponent } from './components/body/intereses/intereses.compon
 import { Iac2Component } from './components/body/estudios/iac2/iac2.component';
 import { FooterComponent } from './components/footer/footer.component';
 import { NgCircleProgressModule } from 'ng-circle-progress';
+import { ExperienciaComponent } from './components/body/experiencia/experiencia.component';
+import { ContactoComponent } from './components/body/contacto/contacto.component';
 
 @NgModule({
   declarations: [
@@ -52,7 +54,9 @@ import { NgCircleProgressModule } from 'ng-circle-progress';
     ApreciacionesComponent,
     InteresesComponent,
     Iac2Component,
-    FooterComponent
+    FooterComponent,
+    ExperienciaComponent,
+    ContactoComponent
   ],
   imports: [
     BrowserModule,
